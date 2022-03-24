@@ -7,7 +7,6 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 
 # Install Powerline fonts:
-
 # clone
 git clone https://github.com/powerline/fonts.git --depth=1
 # install
@@ -20,18 +19,15 @@ rm -rf fonts
 # Configure .zshrc
 
 # Set theme to agnoster
-
 gsed -i 's/"robbyrussell"/"agnoster"/' ~/.zshrc
 
 # Set plugins
-
 gsed -i 's/(git)/(colorize colored-man-pages copyfile git jsontools zsh-autosuggestions)/g' ~/.zshrc
 
 # Update zsh autosuggest highlight color
 echo "ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=23'" >> ~/.zshrc
 
 # pynenv configuration
-
 tee -a ~/.zshrc << END
 # pyenv
 export PYENV_ROOT="$HOME/.pyenv"
