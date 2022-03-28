@@ -46,7 +46,7 @@ set backspace=2
 " mkdir -p ~/.vim/colors && cd ~/.vim/colors
 set t_Co=256
 set background=dark
-colorscheme mushroom
+colorscheme moody
 
 
 " Enable syntax highlighting
