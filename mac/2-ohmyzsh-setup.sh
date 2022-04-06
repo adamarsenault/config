@@ -35,3 +35,9 @@ export PATH="$PYENV_ROOT/shims:$PATH"
 if which pyenv-virtualenv-init > /dev/null; then eval "$(pyenv virtualenv-init -)"; fi
 #if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi    
 END
+
+# Configure MacOS to use gnu-sed by default
+echo 'PATH="/opt/homebrew/opt/gnu-sed/libexec/gnubin:$PATH"' >> ~/.zshrc
+
+# Reload the .zshrc file
+source ~/.zshrc
