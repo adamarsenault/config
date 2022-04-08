@@ -3,9 +3,6 @@
 # Install homebrew:
 "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-# Install gsed
-brew install gsed
-
 # Install casks:
 brew install --cask visual-studio-code \
 	firefox \
@@ -17,6 +14,8 @@ brew install --cask visual-studio-code \
 brew install --formulae tmux \ 
 	pyenv \
 	pyenv-virtualenv \ 
+    gnu-sed \
+    gnupg
 
 # Install AWS CLI
 curl "https://awscli.amazonaws.com/AWSCLIV2.pkg" -o "AWSCLIV2.pkg"\nsudo installer -pkg AWSCLIV2.pkg -target
