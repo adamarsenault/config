@@ -15,7 +15,8 @@ brew install --formulae tmux \
 	pyenv \
 	pyenv-virtualenv \ 
     gnu-sed \
-    gnupg
+    gnupg \
+    jq
 
 # Install AWS CLI
 curl "https://awscli.amazonaws.com/AWSCLIV2.pkg" -o "AWSCLIV2.pkg"\nsudo installer -pkg AWSCLIV2.pkg -target
