@@ -14,6 +14,8 @@ brew install --cask visual-studio-code \
 brew install --formulae tmux \ 
 	pyenv \
 	pyenv-virtualenv \ 
+    numpy \
+    node \
     gnu-sed \
     gnupg \
     jq
