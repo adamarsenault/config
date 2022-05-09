@@ -19,6 +19,7 @@ brew install --formulae tmux \
     node \
     gnu-sed \
     gnupg \
+    postgres \
     jq
 
 # Install AWS CLI
