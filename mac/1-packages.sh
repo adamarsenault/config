@@ -13,7 +13,8 @@ brew install --cask visual-studio-code \
 # Install formulae 
 brew install --formulae tmux \ 
 	pyenv \
-	pyenv-virtualenv \ 
+	pyenv-virtualenv \
+    docker \
     numpy \
     node \
     gnu-sed \
