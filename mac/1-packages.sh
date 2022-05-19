@@ -8,12 +8,13 @@ brew install --cask visual-studio-code \
 	firefox \
 	dbeaver-community \
 	iterm2 \
+    maccy \
 	spotify \ 
 
 # Install formulae 
 brew install --formulae tmux \ 
-	pyenv \
-	pyenv-virtualenv \
+    pyenv \
+    pyenv-virtualenv \
     docker \
     numpy \
     node \
