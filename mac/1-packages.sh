@@ -5,11 +5,11 @@
 
 # Install casks:
 brew install --cask visual-studio-code \
-	firefox \
-	dbeaver-community \
-	iterm2 \
+    firefox \
+    dbeaver-community \
+    iterm2 \
     maccy \
-	spotify \ 
+    spotify \ 
 
 # Install formulae 
 brew install --formulae tmux \ 
@@ -21,7 +21,8 @@ brew install --formulae tmux \
     gnu-sed \
     gnupg \
     postgres \
-    jq
+    jq \
+    tree
 
 # Install AWS CLI
 curl "https://awscli.amazonaws.com/AWSCLIV2.pkg" -o "AWSCLIV2.pkg"\nsudo installer -pkg AWSCLIV2.pkg -target
