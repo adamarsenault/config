@@ -9,7 +9,8 @@ brew install --cask visual-studio-code \
     dbeaver-community \
     iterm2 \
     maccy \
-    spotify \ 
+    spotify \
+    background-music
 
 # Install formulae 
 brew install --formulae tmux \ 
