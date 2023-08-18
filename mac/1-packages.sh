@@ -23,7 +23,8 @@ brew install --formulae tmux \
     gnupg \
     postgres \
     jq \
-    tree
+    tree \
+    bat
 
 # Install AWS CLI
 curl "https://awscli.amazonaws.com/AWSCLIV2.pkg" -o "AWSCLIV2.pkg"\nsudo installer -pkg AWSCLIV2.pkg -target
