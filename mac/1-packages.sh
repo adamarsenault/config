@@ -4,7 +4,7 @@
 "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 # Install casks:
-brew install --formulae $(cat packages/casks)
+brew install --cask $(cat packages/casks)
 
 # Install formulae 
 brew install --formulae $(cat packages/formulae)
