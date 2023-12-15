@@ -16,28 +16,31 @@ cd fonts
 cd ..
 rm -rf fonts
 
-# Configure .zshrc
+# # Configure .zshrc
 
-# Set theme to agnoster
-gsed -i 's/"robbyrussell"/"agnoster"/' ~/.zshrc
+# # Set theme to agnoster
+# gsed -i 's/"robbyrussell"/"agnoster"/' ~/.zshrc
 
-# Set plugins
-gsed -i 's/(git)/(colorize colored-man-pages copyfile git jsontools zsh-autosuggestions)/g' ~/.zshrc
+# # Set plugins
+# gsed -i 's/(git)/(colorize colored-man-pages copyfile git jsontools zsh-autosuggestions)/g' ~/.zshrc
 
-# Update zsh autosuggest highlight color
-echo "ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=23'" >> ~/.zshrc
+# # Update zsh autosuggest highlight color
+# echo "ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=23'" >> ~/.zshrc
 
-# pynenv configuration
-tee -a ~/.zshrc << END
-# pyenv
-export PYENV_ROOT="$HOME/.pyenv"
-export PATH="$PYENV_ROOT/shims:$PATH"
-if which pyenv-virtualenv-init > /dev/null; then eval "$(pyenv virtualenv-init -)"; fi
-#if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi    
-END
+# # pynenv configuration
+# tee -a ~/.zshrc << END
+# # pyenv
+# export PYENV_ROOT="$HOME/.pyenv"
+# export PATH="$PYENV_ROOT/shims:$PATH"
+# if which pyenv-virtualenv-init > /dev/null; then eval "$(pyenv virtualenv-init -)"; fi
+# #if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi    
+# END
 
-# Configure MacOS to use gnu-sed by default
-echo 'PATH="/opt/homebrew/opt/gnu-sed/libexec/gnubin:$PATH"' >> ~/.zshrc
+# # Configure MacOS to use gnu-sed by default
+# echo 'PATH="/opt/homebrew/opt/gnu-sed/libexec/gnubin:$PATH"' >> ~/.zshrc
 
-# Reload the .zshrc file
-source ~/.zshrc
+# # Reload the .zshrc file
+# source ~/.zshrc
+
+brew install powerlevel10k
+echo "source $(brew --prefix)/share/powerlevel10k/powerlevel10k.zsh-theme" >>~/.zshrc
