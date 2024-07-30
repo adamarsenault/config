@@ -1,12 +1,16 @@
 docker
+fzf
 gnupg
 gnu-sed
 helm
 jq
+k9s
 minikube
+mise
 node
 numpy
 postgresql
+powerlevel10k
 pre-commit
 pyenv
 pyenv-virtualenv
@@ -16,4 +20,5 @@ tflint
 tmux
 tree
 trivy
+zsh-autosuggestions
 zsh-syntax-highlighting
