@@ -42,5 +42,5 @@ rm -rf fonts
 # # Reload the .zshrc file
 # source ~/.zshrc
 
-brew install powerlevel10k
-echo "source $(brew --prefix)/share/powerlevel10k/powerlevel10k.zsh-theme" >>~/.zshrc
+# brew install powerlevel10k
+# echo "source $(brew --prefix)/share/powerlevel10k/powerlevel10k.zsh-theme" >>~/.zshrc
